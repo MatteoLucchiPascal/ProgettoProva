@@ -24,5 +24,10 @@ namespace ProgettoProva
         {
             InitializeComponent();
         }
+
+        private void Btn1_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Ciao");
+        }
     }
 }
